@@ -51,8 +51,6 @@ template<class T> class person_info: public Listext
     int age_grade;      //0-7  ，0 first
     int risk_grade;     //0-3 0 no risk, 1 low risk, 2 middle risk,3 high risk
 
-    //this is a test
-
 }
 
 #endif /* listkmp_h */

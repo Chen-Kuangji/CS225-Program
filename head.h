@@ -8,6 +8,7 @@ public:
     M &operator[](int index);
     int getlength(void);
     M getitem(int index);
+    M setitem(int index, T *person_info);
     void append(T *person_info);
     void insert(int index, T *person_info);
     void remove(int index);
